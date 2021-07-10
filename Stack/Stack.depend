@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1625867818 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1625875725 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack\stack_ds.c
+	"Stack_DS.h"
+
+1625875703 h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack\stack_ds.h
+	<stdlib.h>
+	"Platform_Types.h"
+
+1625836835 h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack\platform_types.h
+
+1625877119 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack\s_ds_task.c
+	"S_DS_Task.h"
+
+1625877129 h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack\s_ds_task.h
+	"Stack_DS.h"
+

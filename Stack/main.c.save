@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "S_DS_Task.h"
+
+
+int main()
+{
+
+    printf("%s\n",balancedParentheses("{1sdaca(asdasd)aas}"));
+    printf("%s\n",balancedParentheses("{1sdaca(asdasd)aas}"));
+    printf("%s\n",balancedParentheses("{1sdaca(asdasd)aas}"));
+    return 0;
+}
