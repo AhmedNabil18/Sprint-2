@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1625867818 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack\main.c
+1626016615 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack\main.c
 	<stdio.h>
 	<stdlib.h>
+	"S_DS_Task.h"
 
 1625875725 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack\stack_ds.c
 	"Stack_DS.h"

@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1626017398 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack_testing\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1625877119 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack_testing\s_ds_task.c
+	"S_DS_Task.h"
+
+1625877129 h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack_testing\s_ds_task.h
+	"Stack_DS.h"
+
+1625875703 h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack_testing\stack_ds.h
+	<stdlib.h>
+	"Platform_Types.h"
+
+1625836835 h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack_testing\platform_types.h
+
+1625875725 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack_testing\stack_ds.c
+	"Stack_DS.h"
+
+1626017384 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack_testing\test_cases.c
+	"Test_Cases.h"
+	"Test_Cases_Cfg.h"
+
+1626017241 h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack_testing\test_cases.h
+	<stdio.h>
+	"S_DS_Task.h"
+	"Test_Cases_Cfg.h"
+
+1626016841 h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack_testing\test_cases_cfg.h
+
+1626017478 source:h:\automotive sw bootcamp - sprints\sprint_2\s_ds_01\stack_testing\test_cases_cfg.c
+	"Test_Cases.h"
+
