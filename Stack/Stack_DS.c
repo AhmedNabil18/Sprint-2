@@ -47,7 +47,7 @@ DS_Error_t DS_stackDelete(str_Stack_t *pstrStack)
 ************************************************************************************/
 uint32_t DS_stackGetSize(str_Stack_t * pstrStack)
 {
-
+    return str_Stack->Size;
 }
 
 /************************************************************************************
