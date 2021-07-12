@@ -101,3 +101,29 @@ uint8_t DS_stackPop(str_Stack_t* pstrStack)
     return u8_dataPopped;
 }
 
+/************************************************************************************
+* Service Name: DS_stackPrint
+* Parameters (in): pstrStack -> Pointer to a Stack.
+* Parameters (inout): None
+* Parameters (out):None
+* Return value: None
+* Description: Function to print data inside the stack.
+************************************************************************************/
+DS_Error_t DS_stackPrint(str_Stack_t* pstrStack)
+{
+    if(pstrStack == NULL_PTR)
+    {
+        return DS_ERROR_STACK_NULL;
+    }else if(pstrStack->Head == NULL_PTR)
+    {
+        return DS_ERROR_STACK_EMPTY;
+    }
+    str_StackNode_t * strTempNode = pstrStack->Head;
+    do
+    {
+        printf("%c\n", strTempNode->data);
+        strTempNode = strTempNode->next;
+    }while(strTempNode != NULL_PTR);
+}
+
+

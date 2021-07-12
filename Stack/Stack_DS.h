@@ -30,7 +30,6 @@ uint32_t DS_stackGetSize(str_Stack_t * pstrStack);
 DS_Error_t DS_stackPush(str_Stack_t* pstrStack, uint8_t newData);
 uint8_t DS_stackPop(str_Stack_t* pstrStack);
 DS_Error_t DS_stackDelete(str_Stack_t *pstrStack);
-
-
+DS_Error_t DS_stackPrint(str_Stack_t* pstrStack);
 
 #endif // _STACK_DS_H_

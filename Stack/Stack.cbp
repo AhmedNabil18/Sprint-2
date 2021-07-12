@@ -31,6 +31,15 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Platform_Types.h" />
+		<Unit filename="S_DS_Task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="S_DS_Task.h" />
+		<Unit filename="Stack_DS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Stack_DS.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

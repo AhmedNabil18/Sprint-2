@@ -24,10 +24,12 @@ uint8_t* balancedParentheses(uint8_t* pu8_expression)
             DS_stackPush(strStackBrackets, pu8_expression[u32loopIndex]);
         }else if(pu8_expression[u32loopIndex] == '}')
         {
+            DS_stackPrint(strStackBrackets);
             if(DS_stackPop(strStackBrackets) != '{')
                 return "Not Balanced";
         }else if(pu8_expression[u32loopIndex] == ')')
         {
+            DS_stackPrint(strStackBrackets);
             if(DS_stackPop(strStackBrackets) != '(')
                 return "Not Balanced";
         }
